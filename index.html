@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WhittardsCoffee</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="body_container">
+
+    <header>
+        <nav>
+            <div class="top">
+                <a href="index.html"><img src="../images/logo.png" alt="logo" class="logo"></a>
+
+                <ul class="main_nav animated slideInDown" id="check_class">
+                    <li><a href="#">COFFEE</a></li>
+                    <li><a href="#">GIFTS</a></li>
+                    <li><a href="wisdom.html">WHITTARDS WISDOM</a></li>
+                    <li><a href="ourstory.html">OUR STORY</a></li>
+
+                </ul>
+                <a href="#" class="burger_icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+
+            </div>
+
+        </nav>
+
+        <div class="main_content_header">
+            <h1>WE HAVE BEEN GETTING CREATIVE WITH <span class="colorchange">COFFEE</span><br>
+                THAT WILL WARM YOU RIGHT THROUGH</h1>
+            <a href="signin.html" class="btn btn_full">Sign in</a>
+            <a href="register.html" class="btn btn_nav">Join now</a>
+        </div>
+    </header>
+    
+
+
+    <script>
+        function slideshow() {
+
+            var x = document.getElementById('check_class');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+
+        }
+
+    </script>
+
+    
+    
+</body>
+
+
+</html>
